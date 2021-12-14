@@ -387,7 +387,7 @@ img {
   color: #fff;
   padding: 1rem;
   font-family: var(--body-font);
-  border-radius: 24px;
+  border-radius: 0.5rem;
   font-weight: var(--font-medium);
   text-shadow: 1px 1px 0 #{rgba(#275efe, .32)};
   box-shadow: 0 2px 8px -1px #{rgba(#275efe, .32)};
