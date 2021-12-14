@@ -1,5 +1,13 @@
+/*!
+ * Phoenix.css -https://ilimon.github.io
+ * Version - 1.0.0
+ * Licensed under the Apache License, Version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Copyright (c) 2021 Noushad Mostafa Limon
+ */
+
 /*==================== GOOGLE FONTS ====================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Sen&display=swap");
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -24,7 +32,8 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   /*========== Font and typography ==========*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Sen", sans-serif;
+  --title-font: "Jost", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2rem;
@@ -99,6 +108,7 @@ body.dark-theme{
 }
 
 /*==================== BASE ====================*/
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -107,8 +117,16 @@ body.dark-theme{
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust:100%;
+  -webkit-tap-highlight-color:transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -121,6 +139,7 @@ h2,
 h3,
 h4 {
   color: var(--title-color);
+  font-family: var(--title-font);
   font-weight: var(--font-semi-bold);
 }
 
@@ -175,6 +194,7 @@ img {
   z-index: var(--z-fixed);
   background-color: var(--body-color);
 }
+
 /*==================== NAV ====================*/
 .nav {
   max-width: 968px;
@@ -189,9 +209,17 @@ img {
   columns: var(--title-color);
   font-weight: var(--font-medium);
 }
+.nav__logo {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to top right, #1de9b6, #2979ff);
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-family: var(--title-font);
+}
 
 .nav__logo:hover {
   color: var(--first-color);
+  font-family: var(--title-font);
 }
 
 .nav__toggle {
@@ -352,12 +380,17 @@ img {
 /*==================== BUTTONS ====================*/
 
 .button {
+  border: none;
+  outline: none;
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
   padding: 1rem;
-  border-radius: 0.5rem;
+  font-family: var(--body-font);
+  border-radius: 24px;
   font-weight: var(--font-medium);
+  text-shadow: 1px 1px 0 #{rgba(#275efe, .32)};
+  box-shadow: 0 2px 8px -1px #{rgba(#275efe, .32)};
 }
 
 .button:hover {
@@ -959,7 +992,7 @@ img {
 .footer__copy{
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: #FFF;
     margin-top: var(--mb-3);
 }
 
@@ -969,6 +1002,39 @@ img {
 .footer__social{
     color: #FFF;
 }
+#circle {
+  position: relative;
+  overflow: hidden;
+}
+#circle text {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2.8px;
+  fill: #e67971;
+}
+#circle svg {
+  position: absolute;
+  width: 180%;
+  height: 180%;
+  animation: rotate 7s linear infinite;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  animation-play-state: paused;
+}
+#container-c:hover #circle svg {
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  animation-play-state: running;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+
 
 /*========== SCROLL UP ==========*/
 .scrollup{
