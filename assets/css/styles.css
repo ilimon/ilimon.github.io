@@ -471,6 +471,12 @@ img {
   justify-content: center;
   height: fit-content;
 }
+.about__buttons .button {
+  border-radius: 24px;
+}
+.about__buttons .button_icon {
+  padding-left: 0.5rem;
+}
 
 /*==================== SKILLS ====================*/
 .skills__container {
