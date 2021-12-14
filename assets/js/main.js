@@ -1,4 +1,10 @@
-
+/*!
+ * Phoenix.js -https://ilimon.github.io
+ * Version - 1.0.0
+ * Licensed under the Apache License, Version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Copyright (c) 2021 Noushad Mostafa Limon
+ */
 
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById("nav-menu"),
