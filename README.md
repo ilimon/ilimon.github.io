@@ -11,6 +11,6 @@
 
 ![Phoenix Preview](/preview.png)
 
-___
+---
 
- #### '© 2021 - Limon M'
+ #### `© 2021 - Limon M`
