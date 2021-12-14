@@ -474,7 +474,7 @@ img {
 }
 .about__buttons .button {
   border-radius: 24px;
-  background-color: var(--second-color);
+  background-color: var(--first-color);
 }
 
 /*==================== SKILLS ====================*/
@@ -712,6 +712,7 @@ img {
 .services__button{
     cursor: pointer;
     font-size: var(--small-font-size);
+    border-radius: 24px;
 }
 
 .services__button:hover .button__icon{
@@ -766,7 +767,7 @@ img {
 }
 
 .services__modal-cion{
-    color: var(--first-color);
+    color: var(--second-color);
     margin-right: var(--mb-0-25);
 }
 
