@@ -19,4 +19,8 @@ Responsive Portfolio Website Using Html, Css and JavaScript, With a beautiful us
 
 ---
 
-<center> `© 2021 - Limon M` </center>
+ `© 2021 - Limon M` 
+
+---
+---
+
