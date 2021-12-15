@@ -1,4 +1,4 @@
-# Phoenix by Limon M.
+# Phoenix by Limon.
 
 ---
 
@@ -11,7 +11,10 @@
 
 #### → About Phoenix
 
+```
 Responsive Portfolio Website Using Html, Css and JavaScript, With a beautiful user interface. It contains a Header, Home, About, Skills, Qualification, Services, Portfolio, Project in mind, Testimonial, Contact and Footer.
+
+```
 
 ---
 
@@ -21,6 +24,4 @@ Responsive Portfolio Website Using Html, Css and JavaScript, With a beautiful us
 
  `© 2021 - Limon M` 
 
----
----
 
