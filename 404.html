@@ -1,23 +1,34 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <!--==================== CDN Cache And Favicon ====================-->
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap" rel="stylesheet">
 
-    <title>You Are Lost Sir</title>
+    <title>404 Error Occurred</title>
     <style type="text/css" media="screen">
-      
+    /* 404 Error Page */
+    html {scroll-behavior: smooth;overflow-x: hidden;}
+    body {position: relative;margin: 0;padding: 0 !important;width: 100%;font-size: 14px;background: #FFF;font-family: 'Sen', sans-serif;-webkit-font-smoothing:antialiased;}
+    a {text-decoration: none;}
+    a:hover {opacity: 0.9;transition: opacity 0.1s;}
+    .erroP{display:flex;align-items:center;justify-content:center;height:100vh;text-align:center;padding:0}
+    .erroC{width:calc(100% - 40px);max-width:450px;margin:auto;} 
+    .erroC h3{font-size:1.414rem;font-family:inherit;padding-left:} 
+    .erroC h3 span{display:block;font-size:140px;line-height:.8;margin-bottom:-1rem;color:#ebebf0} 
+    .erroC p{margin:30px 5%;line-height:1.6em;opacity:.7} 
+    .erroC .button{margin:0;padding-left:2em;padding-right:2em;font-size:14px;}
+    .button {display: inline-flex;align-items: center;margin: 10px 0;padding: 12px 15px;outline: 0;border: 0;border-radius: 3px;line-height: 20px;color: #fffdfc;background: #204ecf;font-size: 14px;white-space: nowrap;overflow: hidden;max-width: 320px;}
     </style>
   </head>
   <body>
-    <section class='erroP'>
-    <div class='erroC' id='error-404'>
+    <section class="erroP">
+    <div class="erroC">
     <h3><span>404</span>Something Wrong!</h3>
 
      <p>The page you've requested can't be found. Why don't you browse around?</p>
-     <a class='button' href='/'>Take me back</a>
+     <a class="button" href="/">Take me back</a>
      </div>
      </section>
   </body>
