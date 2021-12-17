@@ -475,7 +475,6 @@ img {
 .about__buttons .button {
   border-radius: 1.5em;
   background-color: var(--first-color);
-  width: 7.5em;
   height: 3em;
 }
 
