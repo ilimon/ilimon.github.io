@@ -388,7 +388,8 @@ img {
   color: #fff;
   padding: 1.5rem;
   height: 3em;
-  font-family: var(--body-font);
+  font-family: var(--title-font);
+  text-transform: uppercase;
   border-radius: 1.5em;
   font-weight: var(--font-medium);
   text-shadow: 1px 1px 0 #{rgba(#275efe, .32)};
