@@ -15,10 +15,10 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 223; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
-  --first-color: hsl(var(--hue-color),10%,90%);
+  --first-color: hsl(var(--hue-color), 69%, 61%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -386,12 +386,17 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: 1rem;
+  padding: 0.5rem;
+  height: 3em;
   font-family: var(--body-font);
-  border-radius: 0.5rem;
+  border-radius: 1.5em;
   font-weight: var(--font-medium);
   text-shadow: 1px 1px 0 #{rgba(#275efe, .32)};
   box-shadow: 0 2px 8px -1px #{rgba(#275efe, .32)};
+}
+
+.button:active {
+  transform: translateY(0.1em);
 }
 
 .button:hover {
