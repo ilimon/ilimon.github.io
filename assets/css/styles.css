@@ -386,7 +386,7 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: 0.5rem;
+  padding: 1.5rem;
   height: 3em;
   font-family: var(--body-font);
   border-radius: 1.5em;
