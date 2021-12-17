@@ -473,8 +473,10 @@ img {
   height: fit-content;
 }
 .about__buttons .button {
-  border-radius: 24px;
+  border-radius: 1.5em;
   background-color: var(--first-color);
+  width: 7.5em;
+  height: 3em;
 }
 
 /*==================== SKILLS ====================*/
