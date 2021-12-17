@@ -46,6 +46,7 @@
   --smaller-font-size: 0.75rem;
 
   /*========== Font weight ==========*/
+  --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
 
@@ -388,7 +389,7 @@ img {
   color: #fff;
   padding: 1.5rem;
   height: 3em;
-  font-family: var(--title-font);
+  font-family: var(--body-font);
   text-transform: uppercase;
   border-radius: 1.5em;
   font-weight: var(--font-normal);
