@@ -391,7 +391,7 @@ img {
   font-family: var(--title-font);
   text-transform: uppercase;
   border-radius: 1.5em;
-  font-weight: var(--font-medium);
+  font-weight: var(--font-normal);
   text-shadow: 1px 1px 0 #{rgba(#275efe, .32)};
   box-shadow: 0 2px 8px -1px #{rgba(#275efe, .32)};
 }
