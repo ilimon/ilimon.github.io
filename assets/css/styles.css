@@ -485,6 +485,25 @@ img {
   height: 3em;
 }
 
+.about__buttons .button:before {
+  animation: pulse 2s ease infinite;
+  border-radius: 100px;
+  position: absolute;
+  background: #06f;
+  content: "";
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { opacity: 0.2; }
+  100% { transform: scale(1.2, 1.4); opacity: 0; }
+}
+
 /*==================== SKILLS ====================*/
 .skills__container {
   row-gap: 0;
