@@ -1,8 +1,12 @@
-# **Phoenix by Limon.**
+
+![Phoenix Preview](/banner.png)
 
 ---
 
-![Phoenix Preview](/Limon2.png)
+
+# **Phoenix by Limon.**
+
+![Phoenix Preview](/preview.png)
 
 ---
 
@@ -13,13 +17,7 @@
 
 Responsive Portfolio Website Using Html, Css and JavaScript, With a beautiful user interface. It contains a Header, Home, About, Skills, Qualification, Services, Portfolio, Project in mind, Testimonial, Contact and Footer.
 
-
 ---
-
-![Phoenix Preview](/preview.png)
-
----
-
 
 <p align="center">
 Made with :heart: by Limon M.
