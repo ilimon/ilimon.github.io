@@ -23,3 +23,7 @@ Responsive Portfolio Website Using Html, Css and JavaScript, With a beautiful us
  `© 2021 - Limon M` 
 
 
+<p align="center">
+Made with :heart: by Dise
+<br>
+</p>
