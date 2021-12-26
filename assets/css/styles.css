@@ -355,6 +355,23 @@ img {
   font-size: var(--h3-font-size);
 }
 
+.home__title > * + * {
+  margin-top: 1em;
+}
+
+.home__title h1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #eee;
+  z-index: -1;
+  width: 100px;
+  height: 100px;
+  top: -30px;
+  left: -50px;
+}
+
 .home__subtitle {
   font-size: var(--h3-font-size);
   color: var(--text-color);
