@@ -977,11 +977,7 @@ img {
 
 .footer__title{
     font-size: var(--h1-font-size);
-    letter-spacing: 5px;
     margin-bottom: var(--mb-0-25);
-    text-shadow: -1px -1px 0px #576ee0,
-    3px 3px 0px #576ee0,
-    6px 6px 0px #4558b3;
 }
 
 .footer__subtitle{
