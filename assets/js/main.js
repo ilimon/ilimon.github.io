@@ -204,4 +204,6 @@ themeButton.addEventListener('click', () => {
 
 
 /*==================== Start Animation ====================*/
-AOS.init();
+AOS.init({
+  duration : 2000,
+});
