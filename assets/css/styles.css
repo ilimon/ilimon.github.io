@@ -7,7 +7,7 @@
  */
 
 /*==================== GOOGLE FONTS ====================*/
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Urbanist:wght@600&family=Sen&display=swap");
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -34,7 +34,7 @@
 
   /*========== Font and typography ==========*/
   --body-font: "Sen", sans-serif;
-  --title-font: "Jost", sans-serif;
+  --title-font: "Urbanist", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2rem;
@@ -172,11 +172,11 @@ img {
   margin-bottom: var(--mb-3);
 }
 
-.section__subtitle::before {
+.section__subtitle:before {
 	 background-color: #f9bc73;
 }
-.section__subtitle::before {
-	 content: '';
+.section__subtitle:before {
+	 content: "";
 	 display: block;
 	 position: absolute;
 	 width: 100%;
