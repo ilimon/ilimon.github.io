@@ -172,6 +172,22 @@ img {
   margin-bottom: var(--mb-3);
 }
 
+.section__subtitle:before {
+	 background-color: #f9bc73;
+}
+.section__subtitle:before {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 width: 100%;
+	 height: 14px;
+	 background-color: transparent;
+	 z-index: -1;
+	 bottom: -2px;
+	 left: 0;
+	 transition: 0.15s ease;
+}
+
 .section__title,
 .section__subtitle {
   text-align: center;
