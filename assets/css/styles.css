@@ -172,11 +172,11 @@ img {
   margin-bottom: var(--mb-3);
 }
 
-.section__subtitle:before {
+.section__subtitle::before {
 	 background-color: #f9bc73;
 }
-.section__subtitle:before {
-	 content: "";
+.section__subtitle::before {
+	 content: '';
 	 display: block;
 	 position: absolute;
 	 width: 100%;
@@ -359,8 +359,8 @@ img {
   margin-top: 1em;
 }
 
-.home__title h1:after {
-  content: "";
+.home__title h1::after {
+  content: '';
   display: block;
   position: absolute;
   border-radius: 50%;
