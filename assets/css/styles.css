@@ -798,6 +798,10 @@ img {
     margin-bottom: var(--mb-1-5);
 }
 
+.services__title-title{
+    padding-bottom: 1.5rem;
+}
+
 .services__modal-close{
     position: absolute;
     top: 1rem;
