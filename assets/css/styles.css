@@ -178,7 +178,7 @@ img {
     left: 0;
     position: absolute;
     z-index: -1;
-
+}
   &::before {
     background-color: rgba(64, 64, 64, 0.15);
     width: 100%;
@@ -194,8 +194,6 @@ img {
   &:hover::after {
     width: 100%;
   }
-}
-
 
 .section__title,
 .section__subtitle {
