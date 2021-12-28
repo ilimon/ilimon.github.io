@@ -839,6 +839,8 @@ img {
 }
 
 .portfolio__img{
+    width: 640;
+    height: 426;
     border-radius: .5rem;
     justify-content: center;
 }
