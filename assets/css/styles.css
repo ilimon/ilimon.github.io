@@ -179,19 +179,19 @@ img {
     position: absolute;
     z-index: -1;
 }
-  &::before {
+  .section__subtitle::before {
     background-color: rgba(64, 64, 64, 0.15);
     width: 100%;
   }
 
-  &::after {
+  .section__subtitle::after {
     background-color: rgba(244, 177, 62, 1);
     transition: width 0.3s ease-in-out;
     width: 0;
     will-change: width;
   }
 
-  &:hover::after {
+  .section__subtitle:hover::after {
     width: 100%;
   }
 
