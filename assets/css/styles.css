@@ -848,6 +848,11 @@ img {
 .portfolio__button:hover .button__icon{
     transform: translateX(.25rem);
 }
+
+.portfolio__button{
+    height: 1.85em;
+}
+
 .swiper-button-prev::after,
 .swiper-button-next::after{
     content: '';
@@ -860,12 +865,10 @@ img {
 
 .swiper-button-prev{
     left: -.5rem;
-    height: 2em;
 }
 
 .swiper-button-next{
     right: -.5rem;
-    height: 3em;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets{
