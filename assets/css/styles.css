@@ -172,28 +172,6 @@ img {
   margin-bottom: var(--mb-3);
 }
 
- .section__subtitle::before,
- .section__subtitle::after {
-    bottom: 0;
-    content: "";
-    height: 8px;
-    left: 0;
-    position: absolute;
-    z-index: -1;
-  }
-
- .section__subtitle::before {
-    background-color: rgba(64, 64, 64, 0.15);
-    width: 100%;
-  }
-
- .section__subtitle::after {
-    background-color: rgba(244, 177, 62, 1);
-    transition: width 0.3s ease-in-out;
-    width: 0;
-    will-change: width;
-  }
-
 .section__title,
 .section__subtitle {
   text-align: center;
