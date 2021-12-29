@@ -834,7 +834,8 @@ img {
 }
 
 .portfolio_button{
-height: 2rm!important;
+text-transform: normal!important;
+font-size: 15px;
 }
 
 .swiper-button-prev::after,
