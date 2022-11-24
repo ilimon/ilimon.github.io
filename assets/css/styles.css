@@ -999,7 +999,8 @@ text-transform: normal!important;
 }
 
 .footer__bg{
-    background-color: var(--first-color-second);
+    background-image: linear-gradient(270deg, #002bdc, #32ded4);
+    back2ground-color: var(--first-color-second);
     padding: 2rem 0 3rem;
 }
 
