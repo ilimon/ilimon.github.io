@@ -15,7 +15,7 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 240; /*Purple 250 - Green 142 - Blue 240 - Pink 340*/
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -999,8 +999,7 @@ text-transform: normal!important;
 }
 
 .footer__bg{
-    background-image: linear-gradient(270deg, #002bdc, #32ded4);
-    back2ground-color: var(--first-color-second);
+    background-color: var(--first-color-second);
     padding: 2rem 0 3rem;
 }
 
